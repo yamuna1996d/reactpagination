@@ -161,7 +161,7 @@ class App extends Component {
     return (
       <div className="container" style={{ marginTop: 50 }}>
         <BootstrapTable 
-        stripe
+        striped
         hover
         keyField='id' 
         data={ this.state.products } 
